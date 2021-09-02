@@ -1,0 +1,39 @@
+.c-section-home {
+  background-image: url(https://www.bootstrapdash.com/demo/marshmallow/images/banner-bg.svg);
+  background-repeat-y: no-repeat;
+  background-position: center bottom;
+  color: white;
+  padding-bottom: 14rem;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+  
+      h1 {
+        font-size: 2.187rem;
+        width: 18ch;
+        font-weight: bold;
+        word-break: break-word;
+        margin: 0;
+      }
+    
+      p {
+        margin: 0;
+      }
+  
+      a {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+      }
+    }
+  }
+}
+
+.c-section-home__wrapper--image {
+}
