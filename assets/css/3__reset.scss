@@ -39,6 +39,8 @@ h5,
 h6 {
   font-weight: normal;
   line-height: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 p {
@@ -74,7 +76,6 @@ h6 {
 }
 
 img {
-  width: 100%;
   max-width: 100%;
   display: block;
 }
