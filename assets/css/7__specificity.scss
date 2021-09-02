@@ -1,0 +1,10 @@
+/* SPECIFICITY */
+
+.o-nav .o-brand {
+  width: 200px;
+}
+
+.o-nav__link.is-active {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
