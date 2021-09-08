@@ -8,3 +8,38 @@
   background: rgba(0, 0, 0, 0.2);
   border-radius: 50px;
 }
+
+@media print {
+}
+
+// 0px > 768px
+@media screen and (min-width: 768px) {
+  .c-section-home {
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    background-position: center bottom;
+    background-color: var(--theme-primary);
+
+    &__wrapper {
+      max-width: 760px;
+      grid-template-columns: 1fr auto;
+    }
+  }
+}
+
+// 0px > 991px
+@media screen and (min-width: 991px) {
+  .o-nav__menu {
+    display: flex;
+  }
+
+  .c-section-home {
+    background-color: transparent;
+    padding-bottom: 14rem;
+
+    &__wrapper {
+      max-width: 990px;
+      grid-template-columns: 1fr 350px;
+    }
+  }
+}
